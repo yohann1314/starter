@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+        "target": "ES6",
+        "module":"ESNext", 
+        "strict": true,
+        "esModuleInterop": true,
+        "resolveJsonModule": true,
+        "moduleResolution": "node",
+        "declaration": true,
+        "declarationDir": "./types",
+        "types": [],
+        "typeRoots": ["./node_modules/@types"],
+        "strictPropertyInitialization": false,
+        "allowJs": true,
+        "checkJs": true
+    },
+    "ts-node": {
+      "esm": true,
+      "experimentalSpecifierResolution": "node" 
+      } ,
+    "include": ["src/index.ts"],
+    "exclude": [
+        "node_modules",
+        "build"
+    ]
+       
+  }
